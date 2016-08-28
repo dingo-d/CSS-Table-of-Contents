@@ -35,8 +35,11 @@ You can right click on the contents of your .css file and add them from the menu
 'CSS Table of Contents', from Tools > CSS Table of Contents submenu, or by using hotkeys
 
 `ctrl+t, g` for section
-`ctrl+t, g` for subsection
-`ctrl+t, g` for subsubsection
+
+`ctrl+t, h` for subsection
+
+`ctrl+t, j` for subsubsection
+
 `ctrl+t, t` for table of contents creation
 
 ## To do
