@@ -1,7 +1,9 @@
 # CSS Table of Contents
 
 **Version**: 1.0.0
+
 **License**: GPLv2 or later
+
 **License URI**: http://www.gnu.org/licenses/gpl-2.0.html
 
 A [Sublime Text 3](http://www.sublimetext.com) plugin that helps you with creating
