@@ -24,9 +24,9 @@ Open your command palette -> Package Control: Install Package -> CSS Table of Co
 Go to your packages folder(Preferences -> Browse Packages)
 ```bash
 # clone this repo
-git clone https://github.com/dingo-d/css_toc 'CSS Table of Contents'
+git clone https://github.com/dingo-d/CSS-Table-of-Contents 'CSS Table of Contents'
 ```
-Or download the leatest [release](https://github.com/dingo-d/css_toc/releases)
+Or download the leatest [release](https://github.com/dingo-d/CSS-Table-of-Contents/releases)
 and unzip it in a folder named `CSS Table of Contents`
 
 ## How to use it
