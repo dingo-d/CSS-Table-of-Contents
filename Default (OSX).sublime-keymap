@@ -1,0 +1,6 @@
+[
+    { "keys": ["super+t", "g"], "command": "csstoc_create_section" },
+    { "keys": ["super+t", "h"], "command": "csstoc_create_subsection" },
+    { "keys": ["super+t", "j"], "command": "csstoc_create_subsubsection" },
+    { "keys": ["super+t", "t"], "command": "csstoc_create_toc" },
+]

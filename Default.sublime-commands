@@ -1,0 +1,68 @@
+[
+
+    {
+        "caption": "Preferences: CSS Table of Contents Key Bindings – Default",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/css_toc/Default (OSX).sublime-keymap",
+            "platform": "OSX"
+        }
+    },
+    {
+        "caption": "Preferences: CSS Table of Contents Key Bindings – User",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/User/Default (OSX).sublime-keymap",
+            "platform": "OSX"
+        }
+    },
+    {
+        "caption": "Preferences: CSS Table of Contents Key Bindings – Default",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/css_toc/Default (Linux).sublime-keymap",
+            "platform": "Linux"
+        }
+    },
+    {
+        "caption": "Preferences: CSS Table of Contents Key Bindings – User",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/User/Default (Linux).sublime-keymap",
+            "platform": "Linux"
+        }
+    },
+    {
+        "caption": "Preferences: CSS Table of Contents Key Bindings – Default",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/css_toc/Default (Windows).sublime-keymap",
+            "platform": "Windows"
+        }
+    },
+    {
+        "caption": "Preferences: CSS Table of Contents Key Bindings – User",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/User/Default (Windows).sublime-keymap",
+            "platform": "Windows"
+        }
+    },
+    {
+        "caption": "Create a section",
+        "command": "csstoc_create_section",
+    },
+    {
+        "caption": "Create a subsection",
+        "command": "csstoc_create_section",
+    },
+    {
+        "caption": "Create a sub subsection",
+        "command": "csstoc_create_section"
+    },
+    {
+        "caption": "Create Table of Contents",
+        "command": "csstoc_create_section"
+    }
+
+]

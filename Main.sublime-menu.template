@@ -1,0 +1,79 @@
+[
+	{
+		"id": "tools",
+		"mnemonic": "t",
+		"children":
+		$menus
+	},
+
+	{
+		"caption": "Preferences",
+		"id": "preferences",
+		"mnemonic": "n",
+		"children":
+		[
+			{
+				"caption": "Package Settings",
+				"id": "package-settings",
+				"mnemonic": "P",
+				"children":
+				[
+					{
+						"caption": "CSS Table of Contents",
+						"children":
+						[
+							{
+							    "caption": "Key Bindings – Default",
+							    "command": "open_file", "args":
+							    {
+							        "file": "${packages}/css_toc/Default (OSX).sublime-keymap",
+							        "platform": "OSX"
+							    }
+							},
+							{
+							    "caption": "Key Bindings – User",
+							    "command": "open_file", "args":
+							    {
+							        "file": "${packages}/User/Default (OSX).sublime-keymap",
+							        "platform": "OSX"
+							    }
+							},
+							{
+							    "caption": "Key Bindings – Default",
+							    "command": "open_file", "args":
+							    {
+							        "file": "${packages}/css_toc/Default (Linux).sublime-keymap",
+							        "platform": "Linux"
+							    }
+							},
+							{
+							    "caption": "Key Bindings – User",
+							    "command": "open_file", "args":
+							    {
+							        "file": "${packages}/User/Default (Linux).sublime-keymap",
+							        "platform": "Linux"
+							    }
+							},
+							{
+							    "caption": "Key Bindings – Default",
+							    "command": "open_file", "args":
+							    {
+							        "file": "${packages}/css_toc/Default (Windows).sublime-keymap",
+							        "platform": "Windows"
+							    }
+							},
+							{
+							    "caption": "Key Bindings – User",
+							    "command": "open_file", "args":
+							    {
+							        "file": "${packages}/User/Default (Windows).sublime-keymap",
+							        "platform": "Windows"
+							    }
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]
