@@ -7,7 +7,7 @@
 A [Sublime Text 3](http://www.sublimetext.com) plugin that helps you with creating
 neat table of contents on the beginning of your .css file
 
-![demo](http://i.imgur.com/RD053Tm.gifv)
+![demo](http://i.imgur.com/RD053Tm.gif)
 
 Add sections, subsections and sub-subsections to your .css file with ease. The plugin
 keeps track of your cursor and selection when creating section markup.
