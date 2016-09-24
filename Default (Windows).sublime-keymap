@@ -3,4 +3,5 @@
     { "keys": ["ctrl+t", "h"], "command": "csstoc_create_subsection" },
     { "keys": ["ctrl+t", "j"], "command": "csstoc_create_subsubsection" },
     { "keys": ["ctrl+t", "t"], "command": "csstoc_create_toc" },
+
 ]

@@ -1,10 +1,12 @@
 # CSS Table of Contents
 
-**Version**: 1.0.0
+**Version**: 1.1.0
 
 **License**: LGPL (GNU Lesser General Public License)
 
 **License URI**: https://www.gnu.org/copyleft/lesser.html
+
+**Contributors**: [Alexey-T](https://github.com/Alexey-T)
 
 A [Sublime Text 3](http://www.sublimetext.com) plugin that helps you with creating
 neat table of contents on the beginning of your .css file
@@ -46,8 +48,22 @@ You can right click on the contents of your .css file and add them from the menu
 
 ## To do
 
-This is the initial release, I have plans to add some more options like navigation through
-the sections, subsections and sub-subsections. Changing the Table of contents title in the
-settings. And what ever somebody suggests.
+- Navigation through the sections, subsections and sub-subsections.
 
-Please test it and report any bugs or issues, it will be appreciated :)
+- Changing the Table of contents title in the settings.
+
+And what ever somebody suggests. Please test it and report any bugs or issues, it will be appreciated :)
+
+## Revision History
+
+* v 1.0.0 Initial release
+
+* v 1.1.0 Update
+  * Bugfix - If ToC already exists, when creating a new one, the old one remained.
+    		 Now you can create sections after you've created a ToC, and it will be updated.
+  * Bugfix - Heapq sort using lexicographical order, so the ordering was wrong. Changed the sort
+  			 according to the [answer](http://stackoverflow.com/a/39675262/629127) by Kasramvd
+  * Update - After creating section, the section name will be selected for
+    		 easier changing of the section title (section/subsection/sub subsection), suggestion
+    		 by [henriquearthur](https://github.com/henriquearthur).
+  * Update - Refactored the code (PR by [Alexey-T](https://github.com/Alexey-T)), so that the definitions are in a separate file.

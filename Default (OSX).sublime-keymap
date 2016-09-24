@@ -1,4 +1,4 @@
-[
+csstoc_goto[
     { "keys": ["super+t", "g"], "command": "csstoc_create_section" },
     { "keys": ["super+t", "h"], "command": "csstoc_create_subsection" },
     { "keys": ["super+t", "j"], "command": "csstoc_create_subsubsection" },
