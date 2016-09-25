@@ -1,6 +1,6 @@
 # CSS Table of Contents
 
-**Version**: 1.1.0
+**Version**: 1.1.1
 
 **License**: LGPL (GNU Lesser General Public License)
 
@@ -67,3 +67,9 @@ And what ever somebody suggests. Please test it and report any bugs or issues, i
     		 easier changing of the section title (section/subsection/sub subsection), suggestion
     		 by [henriquearthur](https://github.com/henriquearthur).
   * Update - Refactored the code (PR by [Alexey-T](https://github.com/Alexey-T)), so that the definitions are in a separate file.
+
+
+* v 1.1.1 Update
+  * Update - Selection view added to a variable
+  * Update - Added docstrings to css_toc_definitions.py file
+  * Fix - Minor linter fixes
