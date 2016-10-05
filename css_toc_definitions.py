@@ -263,3 +263,17 @@ def get_toc(contents):
             toc += tocitem + '\n'
 
     return '/*\n\n[Table of Contents]\n\n' + toc + '\n*/\n\n'
+
+
+def get_toc_lines_count(contents):
+    """ Function gets number of lines in the TOC in text.
+    Gets 0 if no TOC present at begin.
+    """
+    items = contents.splitlines()
+    if not items or not items[0].startswith('/*'): 
+        return 0
+        
+    res = items.index('*/')
+    if (res+1<len(items)) and (items[res+1]==''):
+        res += 1
+    return res
