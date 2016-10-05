@@ -263,3 +263,32 @@ def get_toc(contents):
             toc += tocitem + '\n'
 
     return '/*\n\n[Table of Contents]\n\n' + toc + '\n*/\n\n'
+
+
+def get_toc_lines_count(contents):
+    """ Function gets number of lines in the TOC in text.
+    Gets 0 if no TOC present at begin.
+    """
+    items = contents.splitlines()
+    if not items or not items[0].startswith('/*'): 
+        return 0
+        
+    res = items.index('*/')
+    if (res+1<len(items)) and (items[res+1]==''):
+        res += 1
+    return res
+
+
+def get_section_name_pos(text):
+    """ Function gets (pos_begin, pos_end) of section's name inside line,
+    between prefix/suffix.
+    Gets None if no name.
+    """
+    if not text.startswith('/**'):
+        return
+    
+    pos2 = len(text)-len(SECTION_SUFFIX)
+    pos1 = len(SECTION_PREFIX)
+    while (pos1<len(text)) and (text[pos1]!=' '):
+        pos1 += 1
+    return (pos1+1, pos2-1)
